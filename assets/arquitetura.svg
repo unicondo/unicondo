@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" role="img" aria-labelledby="t d">
+  <title id="t">Arquitetura da plataforma Allvz</title>
+  <desc id="d">Direção, gestor do cliente, colaborador e visitantes acessam a plataforma em Next.js 16 na Vercel, com middleware que confere sessão, papel e empresa. A plataforma tem os módulos de chamados, manutenção, contratos, cobrança, cofre, academy, decks, avisos, indicadores, sistemas, agenda e leads, e grava em PostgreSQL no Supabase via Prisma. Fora da Vercel: passkeys nos aparelhos, Gemini para resumir avisos, um robô de WhatsApp local que lê a fila no banco e um GitHub Actions que tira o backup diário.</desc>
+  <style>
+    .anda { animation: anda 1.2s linear infinite; }
+    @keyframes anda { to { stroke-dashoffset: -18 } }
+    .sobe { opacity: 0; animation: sobe .7s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes sobe { from { opacity: 0; transform: translateY(6px) } to { opacity: 1; transform: none } }
+  </style>
+  <rect x="0.5" y="0.5" width="999" height="639" rx="22" fill="#050505" stroke="rgba(255,255,255,0.09)"/>
+  <text x="36" y="56" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="2" fill="#18afbb">ARQUITETURA</text>
+  <text x="36" y="92" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="28" font-weight="600" letter-spacing="-0.5" fill="#ffffff">Plataforma Allvz, <tspan font-family="Georgia, 'Times New Roman', Times, serif" font-style="italic" font-weight="400">em produção</tspan></text>
+  
+  <path id="f0" d="M 232 196 L 292 196" fill="none" stroke="rgba(24,175,187,0.35)" stroke-width="1.5" stroke-dasharray="4 5" class="anda"/>
+  <circle r="3.5" fill="#18afbb"><animateMotion dur="2.2s" begin="0s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"><mpath href="#f0"/></animateMotion></circle>
+  <path id="f1" d="M 232 262 L 292 262" fill="none" stroke="rgba(24,175,187,0.35)" stroke-width="1.5" stroke-dasharray="4 5" class="anda"/>
+  <circle r="3.5" fill="#18afbb"><animateMotion dur="2.2s" begin="0.4s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"><mpath href="#f1"/></animateMotion></circle>
+  <path id="f2" d="M 232 328 L 292 328" fill="none" stroke="rgba(24,175,187,0.35)" stroke-width="1.5" stroke-dasharray="4 5" class="anda"/>
+  <circle r="3.5" fill="#18afbb"><animateMotion dur="2.2s" begin="0.8s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"><mpath href="#f2"/></animateMotion></circle>
+  <path id="f3" d="M 232 394 L 292 394" fill="none" stroke="rgba(24,175,187,0.35)" stroke-width="1.5" stroke-dasharray="4 5" class="anda"/>
+  <circle r="3.5" fill="#18afbb"><animateMotion dur="2.2s" begin="1.2000000000000002s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"><mpath href="#f3"/></animateMotion></circle>
+  <path id="f4" d="M 688 240 L 748 240" fill="none" stroke="rgba(24,175,187,0.35)" stroke-width="1.5" stroke-dasharray="4 5" class="anda"/>
+  <circle r="3.5" fill="#18afbb"><animateMotion dur="1.8s" begin="0s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"><mpath href="#f4"/></animateMotion></circle>
+  <path id="f5" d="M 688 340 L 748 340" fill="none" stroke="rgba(24,175,187,0.35)" stroke-width="1.5" stroke-dasharray="4 5" class="anda"/>
+  <circle r="3.5" fill="#18afbb"><animateMotion dur="1.8s" begin="0.9s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#f5"/></animateMotion></circle>
+  <path id="f6" d="M 196 500 L 196 420" fill="none" stroke="rgba(24,175,187,0.35)" stroke-width="1.5" stroke-dasharray="4 5" class="anda"/>
+  <circle r="3.5" fill="#18afbb"><animateMotion dur="2.4s" begin="0.2s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"><mpath href="#f6"/></animateMotion></circle>
+  <path id="f7" d="M 386 500 L 386 440" fill="none" stroke="rgba(24,175,187,0.35)" stroke-width="1.5" stroke-dasharray="4 5" class="anda"/>
+  <circle r="3.5" fill="#18afbb"><animateMotion dur="2.4s" begin="0.6s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"><mpath href="#f7"/></animateMotion></circle>
+  <path id="f8" d="M 808 440 L 808 470 L 594 470 L 594 500" fill="none" stroke="rgba(24,175,187,0.35)" stroke-width="1.5" stroke-dasharray="4 5" class="anda"/>
+  <circle r="3.5" fill="#18afbb"><animateMotion dur="3.2s" begin="0.3s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"><mpath href="#f8"/></animateMotion></circle>
+  <path id="f9" d="M 908 440 L 908 500" fill="none" stroke="rgba(24,175,187,0.35)" stroke-width="1.5" stroke-dasharray="4 5" class="anda"/>
+  <circle r="3.5" fill="#18afbb"><animateMotion dur="2.4s" begin="1.1s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"><mpath href="#f9"/></animateMotion></circle>
+  <text x="36" y="134" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="1.6" fill="#777">QUEM ACESSA</text>
+  <rect x="36" y="170" width="196" height="52" rx="14" fill="#0b0b0b" stroke="rgba(255,255,255,0.12)" />
+  <text x="52" y="193" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#f2f2f2">Direção</text>
+  <text x="52" y="211" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8a8a8a">MASTER</text>
+  <rect x="36" y="236" width="196" height="52" rx="14" fill="#0b0b0b" stroke="rgba(255,255,255,0.12)" />
+  <text x="52" y="259" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#f2f2f2">Gestor do cliente</text>
+  <text x="52" y="277" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8a8a8a">ADMIN</text>
+  <rect x="36" y="302" width="196" height="52" rx="14" fill="#0b0b0b" stroke="rgba(255,255,255,0.12)" />
+  <text x="52" y="325" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#f2f2f2">Colaborador</text>
+  <text x="52" y="343" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8a8a8a">COLLABORATOR</text>
+  <rect x="36" y="368" width="196" height="52" rx="14" fill="#0b0b0b" stroke="rgba(255,255,255,0.12)" />
+  <text x="52" y="391" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#f2f2f2">Visitante e robôs</text>
+  <text x="52" y="409" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8a8a8a">SEO · llms.txt</text>
+  <text x="292" y="134" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="1.6" fill="#777">PLATAFORMA</text>
+  <rect x="292" y="150" width="396" height="290" rx="16" fill="#0a1112" stroke="rgba(24,175,187,0.5)"/>
+  <text x="312" y="182" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#ffffff">Next.js 16 <tspan font-weight="400" fill="#8a8a8a">na Vercel</tspan></text>
+  <text x="312" y="203" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#18afbb">middleware: sessão, papel e empresa</text>
+  <g class="sobe" style="animation-delay:0.30s">
+    <rect x="312" y="222" width="112" height="34" rx="9" fill="#101010" stroke="rgba(255,255,255,0.1)"/>
+    <text x="368" y="244" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e6e6e6">Chamados</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.36s">
+    <rect x="434" y="222" width="112" height="34" rx="9" fill="#101010" stroke="rgba(255,255,255,0.1)"/>
+    <text x="490" y="244" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e6e6e6">Manutenção</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.42s">
+    <rect x="556" y="222" width="112" height="34" rx="9" fill="#101010" stroke="rgba(255,255,255,0.1)"/>
+    <text x="612" y="244" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e6e6e6">Contratos</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.48s">
+    <rect x="312" y="266" width="112" height="34" rx="9" fill="#101010" stroke="rgba(255,255,255,0.1)"/>
+    <text x="368" y="288" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e6e6e6">Cobrança</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.54s">
+    <rect x="434" y="266" width="112" height="34" rx="9" fill="#101010" stroke="rgba(255,255,255,0.1)"/>
+    <text x="490" y="288" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e6e6e6">Cofre</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.60s">
+    <rect x="556" y="266" width="112" height="34" rx="9" fill="#101010" stroke="rgba(255,255,255,0.1)"/>
+    <text x="612" y="288" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e6e6e6">Academy</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.66s">
+    <rect x="312" y="310" width="112" height="34" rx="9" fill="#101010" stroke="rgba(255,255,255,0.1)"/>
+    <text x="368" y="332" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e6e6e6">Decks</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.72s">
+    <rect x="434" y="310" width="112" height="34" rx="9" fill="#101010" stroke="rgba(255,255,255,0.1)"/>
+    <text x="490" y="332" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e6e6e6">Avisos</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.78s">
+    <rect x="556" y="310" width="112" height="34" rx="9" fill="#101010" stroke="rgba(255,255,255,0.1)"/>
+    <text x="612" y="332" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e6e6e6">Indicadores</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.84s">
+    <rect x="312" y="354" width="112" height="34" rx="9" fill="#101010" stroke="rgba(255,255,255,0.1)"/>
+    <text x="368" y="376" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e6e6e6">Sistemas</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.90s">
+    <rect x="434" y="354" width="112" height="34" rx="9" fill="#101010" stroke="rgba(255,255,255,0.1)"/>
+    <text x="490" y="376" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e6e6e6">Agenda</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.96s">
+    <rect x="556" y="354" width="112" height="34" rx="9" fill="#101010" stroke="rgba(255,255,255,0.1)"/>
+    <text x="612" y="376" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e6e6e6">Leads</text>
+  </g>
+  <text x="312" y="422" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#8a8a8a">server actions · zod · nextauth · webauthn</text>
+  <text x="748" y="134" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="1.6" fill="#777">DADOS</text>
+  <rect x="748" y="150" width="216" height="290" rx="14" fill="#0b0b0b" stroke="rgba(255,255,255,0.12)" />
+  <text x="768" y="182" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#ffffff">PostgreSQL</text>
+  <text x="768" y="203" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#8a8a8a">Supabase · Supavisor</text>
+  <line x1="768" y1="220" x2="944" y2="220" stroke="rgba(255,255,255,0.08)"/>
+  <text x="768" y="246" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#18afbb">Prisma</text>
+  <text x="830" y="246" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#cfcfcf">57 modelos</text>
+  <text x="768" y="272" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#18afbb">:6543</text>
+  <text x="830" y="272" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#cfcfcf">app, transação</text>
+  <text x="768" y="298" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#18afbb">:5432</text>
+  <text x="830" y="298" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#cfcfcf">DDL, sessão</text>
+  <text x="768" y="324" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#18afbb">cofre</text>
+  <text x="830" y="324" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#cfcfcf">AES-256-GCM</text>
+  <text x="768" y="350" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#18afbb">fotos</text>
+  <text x="830" y="350" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#cfcfcf">bytea</text>
+  <text x="768" y="376" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#18afbb">fila</text>
+  <text x="830" y="376" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#cfcfcf">avisos do robô</text>
+  <text x="36" y="484" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="1.6" fill="#777">FORA DA VERCEL</text>
+  <rect x="36" y="500" width="196" height="104" rx="14" fill="#0b0b0b" stroke="rgba(255,255,255,0.12)" />
+  <text x="52" y="530" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f2f2">Passkeys</text>
+  <text x="52" y="556" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#9a9a9a">chave privada no Secure</text>
+  <text x="52" y="575" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#9a9a9a">Enclave ou no TPM</text>
+  <rect x="292" y="500" width="188" height="104" rx="14" fill="#0b0b0b" stroke="rgba(255,255,255,0.12)" />
+  <text x="308" y="530" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f2f2">Gemini</text>
+  <text x="308" y="556" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#9a9a9a">rascunho do resumo</text>
+  <text x="308" y="575" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#9a9a9a">de cada aviso</text>
+  <rect x="500" y="500" width="188" height="104" rx="14" fill="#0b0b0b" stroke="rgba(255,255,255,0.12)" />
+  <text x="516" y="530" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f2f2">Robô de WhatsApp</text>
+  <text x="516" y="556" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#9a9a9a">máquina local, sem</text>
+  <text x="516" y="575" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#9a9a9a">nenhuma porta aberta</text>
+  <rect x="748" y="500" width="216" height="104" rx="14" fill="#0b0b0b" stroke="rgba(255,255,255,0.12)" />
+  <text x="764" y="530" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f2f2">GitHub Actions</text>
+  <text x="764" y="556" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#9a9a9a">dump diário conferido,</text>
+  <text x="764" y="575" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#9a9a9a">fora do Supabase</text>
+</svg>

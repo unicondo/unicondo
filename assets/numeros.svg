@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 232" width="1000" height="232" role="img" aria-labelledby="t d">
+  <title id="t">Em números</title>
+  <desc id="d">511 commits em 2026 nos projetos da Allvz, 85 mil linhas de TypeScript na plataforma, 57 modelos de dados, 21 trilhas na Academy e 22 scripts de conferência.</desc>
+  <style>
+    .sobe { opacity: 0; animation: sobe .8s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes sobe { from { opacity: 0; transform: translateY(8px) } to { opacity: 1; transform: none } }
+    .cresce { transform-box: fill-box; transform-origin: bottom; transform: scaleY(0); animation: cresce .7s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes cresce { to { transform: scaleY(1) } }
+  </style>
+  <rect x="0.5" y="0.5" width="999" height="231" rx="22" fill="#050505" stroke="rgba(255,255,255,0.09)"/>
+  <g class="sobe" style="animation-delay:0.08s">
+    <rect x="38" y="32" width="268" height="168" rx="16" fill="#0b0b0b" stroke="rgba(255,255,255,0.08)"/>
+    <text x="58" y="64" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="1.6" fill="#18afbb">COMMITS · 2026</text>
+    <text x="56" y="122" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="46" font-weight="600" letter-spacing="-1.5" fill="#ffffff">511</text>
+    <text x="58" y="154" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#9a9a9a">nos projetos da Allvz,</text>
+    <text x="58" y="173" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#9a9a9a">de janeiro a outubro</text>
+    <rect x="168" y="106.70676691729324" width="8" height="25.293233082706767" rx="2" fill="rgba(24,175,187,0.45)" class="cresce" style="animation-delay:0.50s"/>
+    <rect x="180" y="81.84962406015038" width="8" height="50.150375939849624" rx="2" fill="rgba(24,175,187,0.45)" class="cresce" style="animation-delay:0.57s"/>
+    <rect x="192" y="121.53383458646617" width="8" height="10.466165413533833" rx="2" fill="rgba(24,175,187,0.45)" class="cresce" style="animation-delay:0.64s"/>
+    <rect x="204" y="130" width="8" height="2" rx="2" fill="rgba(24,175,187,0.45)" class="cresce" style="animation-delay:0.71s"/>
+    <rect x="216" y="74" width="8" height="58" rx="2" fill="#18afbb" class="cresce" style="animation-delay:0.78s"/>
+    <rect x="228" y="123.71428571428572" width="8" height="8.285714285714285" rx="2" fill="rgba(24,175,187,0.45)" class="cresce" style="animation-delay:0.85s"/>
+    <rect x="240" y="128.0751879699248" width="8" height="3.924812030075188" rx="2" fill="rgba(24,175,187,0.45)" class="cresce" style="animation-delay:0.92s"/>
+    <rect x="252" y="124.15037593984962" width="8" height="7.849624060150376" rx="2" fill="rgba(24,175,187,0.45)" class="cresce" style="animation-delay:0.99s"/>
+    <rect x="264" y="82.7218045112782" width="8" height="49.278195488721806" rx="2" fill="rgba(24,175,187,0.45)" class="cresce" style="animation-delay:1.06s"/>
+    <rect x="276" y="122.84210526315789" width="8" height="9.157894736842104" rx="2" fill="rgba(24,175,187,0.45)" class="cresce" style="animation-delay:1.13s"/>
+    <line x1="168" y1="132.5" x2="284" y2="132.5" stroke="rgba(255,255,255,0.12)"/>
+  </g>
+  <g class="sobe" style="animation-delay:0.20s">
+    <rect x="320" y="32" width="150" height="168" rx="16" fill="#0b0b0b" stroke="rgba(255,255,255,0.08)"/>
+    <text x="340" y="64" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="1.6" fill="#18afbb">TYPESCRIPT</text>
+    <text x="338" y="122" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="40" font-weight="600" letter-spacing="-1.5" fill="#ffffff">85 mil</text>
+    <text x="340" y="154" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#9a9a9a">linhas na</text>
+    <text x="340" y="173" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#9a9a9a">plataforma</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.32s">
+    <rect x="484" y="32" width="150" height="168" rx="16" fill="#0b0b0b" stroke="rgba(255,255,255,0.08)"/>
+    <text x="504" y="64" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="1.6" fill="#18afbb">MODELOS</text>
+    <text x="502" y="122" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="46" font-weight="600" letter-spacing="-1.5" fill="#ffffff">57</text>
+    <text x="504" y="154" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#9a9a9a">tabelas</text>
+    <text x="504" y="173" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#9a9a9a">no Prisma</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.44s">
+    <rect x="648" y="32" width="150" height="168" rx="16" fill="#0b0b0b" stroke="rgba(255,255,255,0.08)"/>
+    <text x="668" y="64" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="1.6" fill="#18afbb">ACADEMY</text>
+    <text x="666" y="122" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="46" font-weight="600" letter-spacing="-1.5" fill="#ffffff">21</text>
+    <text x="668" y="154" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#9a9a9a">trilhas de</text>
+    <text x="668" y="173" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#9a9a9a">capacitação</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.56s">
+    <rect x="812" y="32" width="150" height="168" rx="16" fill="#0b0b0b" stroke="rgba(255,255,255,0.08)"/>
+    <text x="832" y="64" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="1.6" fill="#18afbb">CONFERÊNCIAS</text>
+    <text x="830" y="122" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="46" font-weight="600" letter-spacing="-1.5" fill="#ffffff">22</text>
+    <text x="832" y="154" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#9a9a9a">scripts que provam</text>
+    <text x="832" y="173" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#9a9a9a">a regra no banco</text>
+  </g>
+</svg>

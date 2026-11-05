@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 382" width="1000" height="382" role="img" aria-labelledby="t d">
+  <title id="t">Stack</title>
+  <desc id="d">INTERFACE: Next.js 16, React 19, TypeScript, Tailwind CSS 4, Radix e shadcn/ui, Framer Motion. DADOS: PostgreSQL, Prisma, Supabase, Zod, Recharts, ExcelJS. SEGURANÇA: NextAuth, Passkeys (WebAuthn), AES-256-GCM, bcrypt, RBAC multi-tenant. INFRA: Vercel, Docker, Coolify, GitHub Actions, Inno Setup. AUTOMAÇÃO: Node.js, WPPConnect, Gemini API, PowerShell, Nodemailer.</desc>
+  <style>
+    .sobe { opacity: 0; animation: sobe .6s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes sobe { from { opacity: 0; transform: translateY(6px) } to { opacity: 1; transform: none } }
+  </style>
+  <rect x="0.5" y="0.5" width="999" height="381" rx="22" fill="#050505" stroke="rgba(255,255,255,0.09)"/>
+  <text x="36" y="64" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.6" fill="#18afbb">INTERFACE</text>
+  <g class="sobe" style="animation-delay:0.05s">
+    <rect x="156" y="40" width="104" height="38" rx="10" fill="#0d0d0d" stroke="rgba(255,255,255,0.11)"/>
+    <text x="208" y="64.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#e8e8e8">Next.js 16</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.09s">
+    <rect x="270" y="40" width="94" height="38" rx="10" fill="#0d0d0d" stroke="rgba(255,255,255,0.11)"/>
+    <text x="317" y="64.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#e8e8e8">React 19</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.12s">
+    <rect x="374" y="40" width="108" height="38" rx="10" fill="#0d0d0d" stroke="rgba(255,255,255,0.11)"/>
+    <text x="428" y="64.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#e8e8e8">TypeScript</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.16s">
+    <rect x="492" y="40" width="135" height="38" rx="10" fill="#0d0d0d" stroke="rgba(255,255,255,0.11)"/>
+    <text x="559.5" y="64.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#e8e8e8">Tailwind CSS 4</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.19s">
+    <rect x="637" y="40" width="161" height="38" rx="10" fill="#0d0d0d" stroke="rgba(255,255,255,0.11)"/>
+    <text x="717.5" y="64.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#e8e8e8">Radix e shadcn/ui</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.23s">
+    <rect x="808" y="40" width="141" height="38" rx="10" fill="#0d0d0d" stroke="rgba(255,255,255,0.11)"/>
+    <text x="878.5" y="64.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#e8e8e8">Framer Motion</text>
+  </g>
+  <line x1="36" y1="92" x2="964" y2="92" stroke="rgba(255,255,255,0.05)"/>
+  <text x="36" y="130" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.6" fill="#18afbb">DADOS</text>
+  <g class="sobe" style="animation-delay:0.26s">
+    <rect x="156" y="106" width="116" height="38" rx="10" fill="#0d0d0d" stroke="rgba(255,255,255,0.11)"/>
+    <text x="214" y="130.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#e8e8e8">PostgreSQL</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.30s">
+    <rect x="282" y="106" width="80" height="38" rx="10" fill="#0d0d0d" stroke="rgba(255,255,255,0.11)"/>
+    <text x="322" y="130.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#e8e8e8">Prisma</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.33s">
+    <rect x="372" y="106" width="102" height="38" rx="10" fill="#0d0d0d" stroke="rgba(255,255,255,0.11)"/>
+    <text x="423" y="130.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#e8e8e8">Supabase</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.37s">
+    <rect x="484" y="106" width="61" height="38" rx="10" fill="#0d0d0d" stroke="rgba(255,255,255,0.11)"/>
+    <text x="514.5" y="130.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#e8e8e8">Zod</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.40s">
+    <rect x="555" y="106" width="94" height="38" rx="10" fill="#0d0d0d" stroke="rgba(255,255,255,0.11)"/>
+    <text x="602" y="130.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#e8e8e8">Recharts</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.43s">
+    <rect x="659" y="106" width="83" height="38" rx="10" fill="#0d0d0d" stroke="rgba(255,255,255,0.11)"/>
+    <text x="700.5" y="130.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#e8e8e8">ExcelJS</text>
+  </g>
+  <line x1="36" y1="158" x2="964" y2="158" stroke="rgba(255,255,255,0.05)"/>
+  <text x="36" y="196" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.6" fill="#18afbb">SEGURANÇA</text>
+  <g class="sobe" style="animation-delay:0.47s">
+    <rect x="156" y="172" width="101" height="38" rx="10" fill="#0d0d0d" stroke="rgba(255,255,255,0.11)"/>
+    <text x="206.5" y="196.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#e8e8e8">NextAuth</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.51s">
+    <rect x="267" y="172" width="187" height="38" rx="10" fill="#0d0d0d" stroke="rgba(255,255,255,0.11)"/>
+    <text x="360.5" y="196.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#e8e8e8">Passkeys (WebAuthn)</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.54s">
+    <rect x="464" y="172" width="137" height="38" rx="10" fill="#0d0d0d" stroke="rgba(255,255,255,0.11)"/>
+    <text x="532.5" y="196.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#e8e8e8">AES-256-GCM</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.58s">
+    <rect x="611" y="172" width="78" height="38" rx="10" fill="#0d0d0d" stroke="rgba(255,255,255,0.11)"/>
+    <text x="650" y="196.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#e8e8e8">bcrypt</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.61s">
+    <rect x="699" y="172" width="167" height="38" rx="10" fill="#0d0d0d" stroke="rgba(255,255,255,0.11)"/>
+    <text x="782.5" y="196.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#e8e8e8">RBAC multi-tenant</text>
+  </g>
+  <line x1="36" y1="224" x2="964" y2="224" stroke="rgba(255,255,255,0.05)"/>
+  <text x="36" y="262" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.6" fill="#18afbb">INFRA</text>
+  <g class="sobe" style="animation-delay:0.65s">
+    <rect x="156" y="238" width="76" height="38" rx="10" fill="#0d0d0d" stroke="rgba(255,255,255,0.11)"/>
+    <text x="194" y="262.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#e8e8e8">Vercel</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.68s">
+    <rect x="242" y="238" width="84" height="38" rx="10" fill="#0d0d0d" stroke="rgba(255,255,255,0.11)"/>
+    <text x="284" y="262.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#e8e8e8">Docker</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.72s">
+    <rect x="336" y="238" width="83" height="38" rx="10" fill="#0d0d0d" stroke="rgba(255,255,255,0.11)"/>
+    <text x="377.5" y="262.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#e8e8e8">Coolify</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.75s">
+    <rect x="429" y="238" width="142" height="38" rx="10" fill="#0d0d0d" stroke="rgba(255,255,255,0.11)"/>
+    <text x="500" y="262.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#e8e8e8">GitHub Actions</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.79s">
+    <rect x="581" y="238" width="111" height="38" rx="10" fill="#0d0d0d" stroke="rgba(255,255,255,0.11)"/>
+    <text x="636.5" y="262.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#e8e8e8">Inno Setup</text>
+  </g>
+  <line x1="36" y1="290" x2="964" y2="290" stroke="rgba(255,255,255,0.05)"/>
+  <text x="36" y="328" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.6" fill="#18afbb">AUTOMAÇÃO</text>
+  <g class="sobe" style="animation-delay:0.82s">
+    <rect x="156" y="304" width="87" height="38" rx="10" fill="#0d0d0d" stroke="rgba(255,255,255,0.11)"/>
+    <text x="199.5" y="328.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#e8e8e8">Node.js</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.86s">
+    <rect x="253" y="304" width="127" height="38" rx="10" fill="#0d0d0d" stroke="rgba(255,255,255,0.11)"/>
+    <text x="316.5" y="328.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#e8e8e8">WPPConnect</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.89s">
+    <rect x="390" y="304" width="112" height="38" rx="10" fill="#0d0d0d" stroke="rgba(255,255,255,0.11)"/>
+    <text x="446" y="328.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#e8e8e8">Gemini API</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.93s">
+    <rect x="512" y="304" width="111" height="38" rx="10" fill="#0d0d0d" stroke="rgba(255,255,255,0.11)"/>
+    <text x="567.5" y="328.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#e8e8e8">PowerShell</text>
+  </g>
+  <g class="sobe" style="animation-delay:0.96s">
+    <rect x="633" y="304" width="118" height="38" rx="10" fill="#0d0d0d" stroke="rgba(255,255,255,0.11)"/>
+    <text x="692" y="328.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#e8e8e8">Nodemailer</text>
+  </g>
+</svg>

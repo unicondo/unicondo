@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 380" width="1000" height="380" role="img" aria-labelledby="t d">
+  <title id="t">Bruno Alves</title>
+  <desc id="d">Fundador e Head de Tecnologia da Allvz, no Rio de Janeiro. Desenho a arquitetura, escrevo o código, coloco em produção, treino quem vai usar e atendo quando quebra.</desc>
+  <defs>
+    <radialGradient id="brilho" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#18afbb" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#18afbb" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="borda"><rect width="1000" height="380" rx="22"/></clipPath>
+    <clipPath id="tipo0"><rect x="104" y="250" height="44" width="0"><animate attributeName="width" dur="21.725s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.00000;0.00345;0.00690;0.01036;0.01381;0.01726;0.02071;0.02417;0.02762;0.03107;0.03452;0.03797;0.04143;0.04488;0.04833;0.05178;0.05524;0.05869;0.06214;0.06559;0.06904;0.07250;0.16133;0.16272;0.16410;0.16548;0.16686;0.16824;0.16962;0.17100;0.17238;0.17376;0.17514;0.17652;0.17791;0.17929;0.18067;0.18205;0.18343;0.18481;0.18619;0.18757;0.18895;0.18896" values="0;11;22;33;44;55;66;77;88;99;110;121;132;143;154;165;176;187;198;209;220;231;220;209;198;187;176;165;154;143;132;121;110;99;88;77;66;55;44;33;22;11;0;0"/></rect></clipPath>
+    <clipPath id="tipo1"><rect x="104" y="250" height="44" width="0"><animate attributeName="width" dur="21.725s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.00000;0.20967;0.21312;0.21657;0.22002;0.22348;0.22693;0.23038;0.23383;0.23728;0.24074;0.24419;0.24764;0.25109;0.25455;0.25800;0.26145;0.26490;0.35374;0.35512;0.35650;0.35788;0.35926;0.36064;0.36203;0.36341;0.36479;0.36617;0.36755;0.36893;0.37031;0.37169;0.37307;0.37445;0.37446" values="0;0;11;22;33;44;55;66;77;88;99;110;121;132;143;154;165;176;165;154;143;132;121;110;99;88;77;66;55;44;33;22;11;0;0"/></rect></clipPath>
+    <clipPath id="tipo2"><rect x="104" y="250" height="44" width="0"><animate attributeName="width" dur="21.725s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.00000;0.39517;0.39862;0.40207;0.40552;0.40898;0.41243;0.41588;0.41933;0.42278;0.42624;0.42969;0.43314;0.43659;0.44005;0.44350;0.44695;0.45040;0.45386;0.45731;0.54614;0.54753;0.54891;0.55029;0.55167;0.55305;0.55443;0.55581;0.55719;0.55857;0.55995;0.56133;0.56272;0.56410;0.56548;0.56686;0.56824;0.56962;0.56962" values="0;0;11;22;33;44;55;66;77;88;99;110;121;132;143;154;165;176;187;198;187;176;165;154;143;132;121;110;99;88;77;66;55;44;33;22;11;0;0"/></rect></clipPath>
+    <clipPath id="tipo3"><rect x="104" y="250" height="44" width="0"><animate attributeName="width" dur="21.725s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.00000;0.59033;0.59379;0.59724;0.60069;0.60414;0.60759;0.61105;0.61450;0.61795;0.62140;0.62486;0.62831;0.63176;0.63521;0.63867;0.64212;0.64557;0.64902;0.65247;0.65593;0.65938;0.74822;0.74960;0.75098;0.75236;0.75374;0.75512;0.75650;0.75788;0.75926;0.76064;0.76203;0.76341;0.76479;0.76617;0.76755;0.76893;0.77031;0.77169;0.77307;0.77445;0.77446" values="0;0;11;22;33;44;55;66;77;88;99;110;121;132;143;154;165;176;187;198;209;220;209;198;187;176;165;154;143;132;121;110;99;88;77;66;55;44;33;22;11;0;0"/></rect></clipPath>
+    <clipPath id="tipo4"><rect x="104" y="250" height="44" width="0"><animate attributeName="width" dur="21.725s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.00000;0.79517;0.79862;0.80207;0.80552;0.80898;0.81243;0.81588;0.81933;0.82278;0.82624;0.82969;0.83314;0.83659;0.84005;0.84350;0.84695;0.85040;0.85386;0.85731;0.86076;0.86421;0.95305;0.95443;0.95581;0.95719;0.95857;0.95995;0.96133;0.96272;0.96410;0.96548;0.96686;0.96824;0.96962;0.97100;0.97238;0.97376;0.97514;0.97652;0.97791;0.97929;0.97929" values="0;0;11;22;33;44;55;66;77;88;99;110;121;132;143;154;165;176;187;198;209;220;209;198;187;176;165;154;143;132;121;110;99;88;77;66;55;44;33;22;11;0;0"/></rect></clipPath>
+  </defs>
+  <style>
+    .sobe { opacity: 0; animation: sobe .9s cubic-bezier(.2,.7,.2,1) forwards; }
+    .d1 { animation-delay: .05s } .d2 { animation-delay: .2s } .d3 { animation-delay: .35s } .d4 { animation-delay: .5s } .d5 { animation-delay: .65s }
+    @keyframes sobe { from { opacity: 0; transform: translateY(10px) } to { opacity: 1; transform: none } }
+  </style>
+  <rect x="0.5" y="0.5" width="999" height="379" rx="22" fill="#050505" stroke="rgba(255,255,255,0.09)"/>
+  <g clip-path="url(#borda)">
+  <defs>
+    <pattern id="capa-p" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.1" fill="rgba(255,255,255,0.07)"/>
+    </pattern>
+    <radialGradient id="capa-fade" cx="72%" cy="38%" r="70%">
+      <stop offset="0" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="capa-m"><rect width="1000" height="380" fill="url(#capa-fade)"/></mask>
+  </defs>
+  <rect width="1000" height="380" rx="22" fill="url(#capa-p)" mask="url(#capa-m)"/>
+    <circle cx="812" cy="190" r="300" fill="url(#brilho)">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="7s" repeatCount="indefinite"/>
+    </circle>
+  <circle cx="812" cy="190" r="62" fill="none" stroke="rgba(255,255,255,0.1)" stroke-dasharray="none"/>
+  <g><circle cx="874.0" cy="190.0" r="3.2" fill="#18afbb"/><circle cx="874.0" cy="190.0" r="9.600000000000001" fill="#18afbb" opacity="0.12"/><circle cx="750.0" cy="190.0" r="3.2" fill="#18afbb"/><circle cx="750.0" cy="190.0" r="9.600000000000001" fill="#18afbb" opacity="0.12"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 812 190" to="360 812 190" dur="14s" repeatCount="indefinite"/>
+  </g>
+  <circle cx="812" cy="190" r="108" fill="none" stroke="rgba(255,255,255,0.08)" stroke-dasharray="2 6"/>
+  <g><circle cx="894.7" cy="259.4" r="3.6" fill="#18afbb"/><circle cx="894.7" cy="259.4" r="10.8" fill="#18afbb" opacity="0.12"/><circle cx="710.5" cy="153.1" r="3.6" fill="#18afbb"/><circle cx="710.5" cy="153.1" r="10.8" fill="#18afbb" opacity="0.12"/><circle cx="848.9" cy="88.5" r="3.6" fill="#18afbb"/><circle cx="848.9" cy="88.5" r="10.8" fill="#18afbb" opacity="0.12"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 812 190" to="-360 812 190" dur="26s" repeatCount="indefinite"/>
+  </g>
+  <circle cx="812" cy="190" r="154" fill="none" stroke="rgba(255,255,255,0.060000000000000005)" stroke-dasharray="none"/>
+  <g><circle cx="759.3" cy="334.7" r="4.2" fill="#18afbb"/><circle cx="759.3" cy="334.7" r="12.600000000000001" fill="#18afbb" opacity="0.12"/><circle cx="759.3" cy="45.3" r="4.2" fill="#18afbb"/><circle cx="759.3" cy="45.3" r="12.600000000000001" fill="#18afbb" opacity="0.12"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 812 190" to="360 812 190" dur="40s" repeatCount="indefinite"/>
+  </g>
+    <text x="812" y="199" text-anchor="middle" font-family="Georgia, 'Times New Roman', Times, serif" font-style="italic" font-size="30" fill="#ffffff">allvz</text>
+  </g>
+
+  <g class="sobe d1">
+    <circle cx="62" cy="86" r="4" fill="#18afbb">
+      <animate attributeName="r" values="4;6;4" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;.5;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="78" y="91" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" letter-spacing="3" fill="#8a8a8a">ALLVZ  ·  RIO DE JANEIRO</text>
+  </g>
+  <text class="sobe d2" x="54" y="170" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="74" font-weight="600" letter-spacing="-2" fill="#ffffff">Bruno <tspan font-family="Georgia, 'Times New Roman', Times, serif" font-style="italic" font-weight="400" letter-spacing="-1">Alves</tspan></text>
+  <text class="sobe d3" x="56" y="214" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" fill="#a3a3a3">Fundador e Head de Tecnologia da Allvz</text>
+
+  <g class="sobe d4">
+    <rect x="56" y="246" width="356" height="50" rx="12" fill="#0c0c0c" stroke="rgba(255,255,255,0.1)"/>
+    <text x="76" y="279" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="19" fill="#18afbb">$</text>
+  <text x="104" y="279" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="19" fill="#f2f2f2" textLength="231" lengthAdjust="spacingAndGlyphs" clip-path="url(#tipo0)">desenho a arquitetura</text>
+  <text x="104" y="279" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="19" fill="#f2f2f2" textLength="176" lengthAdjust="spacingAndGlyphs" clip-path="url(#tipo1)">escrevo o código</text>
+  <text x="104" y="279" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="19" fill="#f2f2f2" textLength="198" lengthAdjust="spacingAndGlyphs" clip-path="url(#tipo2)">coloco em produção</text>
+  <text x="104" y="279" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="19" fill="#f2f2f2" textLength="220" lengthAdjust="spacingAndGlyphs" clip-path="url(#tipo3)">treino quem vai usar</text>
+  <text x="104" y="279" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="19" fill="#f2f2f2" textLength="220" lengthAdjust="spacingAndGlyphs" clip-path="url(#tipo4)">atendo quando quebra</text>
+  <rect y="262" width="9" height="22" rx="1.5" fill="#18afbb" x="104">
+    <animate attributeName="x" dur="21.725s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.00000;0.00345;0.00690;0.01036;0.01381;0.01726;0.02071;0.02417;0.02762;0.03107;0.03452;0.03797;0.04143;0.04488;0.04833;0.05178;0.05524;0.05869;0.06214;0.06559;0.06904;0.07250;0.16133;0.16272;0.16410;0.16548;0.16686;0.16824;0.16962;0.17100;0.17238;0.17376;0.17514;0.17652;0.17791;0.17929;0.18067;0.18205;0.18343;0.18481;0.18619;0.18757;0.18895;0.20967;0.21312;0.21657;0.22002;0.22348;0.22693;0.23038;0.23383;0.23728;0.24074;0.24419;0.24764;0.25109;0.25455;0.25800;0.26145;0.26490;0.35374;0.35512;0.35650;0.35788;0.35926;0.36064;0.36203;0.36341;0.36479;0.36617;0.36755;0.36893;0.37031;0.37169;0.37307;0.37445;0.39517;0.39862;0.40207;0.40552;0.40898;0.41243;0.41588;0.41933;0.42278;0.42624;0.42969;0.43314;0.43659;0.44005;0.44350;0.44695;0.45040;0.45386;0.45731;0.54614;0.54753;0.54891;0.55029;0.55167;0.55305;0.55443;0.55581;0.55719;0.55857;0.55995;0.56133;0.56272;0.56410;0.56548;0.56686;0.56824;0.56962;0.59033;0.59379;0.59724;0.60069;0.60414;0.60759;0.61105;0.61450;0.61795;0.62140;0.62486;0.62831;0.63176;0.63521;0.63867;0.64212;0.64557;0.64902;0.65247;0.65593;0.65938;0.74822;0.74960;0.75098;0.75236;0.75374;0.75512;0.75650;0.75788;0.75926;0.76064;0.76203;0.76341;0.76479;0.76617;0.76755;0.76893;0.77031;0.77169;0.77307;0.77445;0.79517;0.79862;0.80207;0.80552;0.80898;0.81243;0.81588;0.81933;0.82278;0.82624;0.82969;0.83314;0.83659;0.84005;0.84350;0.84695;0.85040;0.85386;0.85731;0.86076;0.86421;0.95305;0.95443;0.95581;0.95719;0.95857;0.95995;0.96133;0.96272;0.96410;0.96548;0.96686;0.96824;0.96962;0.97100;0.97238;0.97376;0.97514;0.97652;0.97791;0.97929" values="106;117;128;139;150;161;172;183;194;205;216;227;238;249;260;271;282;293;304;315;326;337;326;315;304;293;282;271;260;249;238;227;216;205;194;183;172;161;150;139;128;117;106;106;117;128;139;150;161;172;183;194;205;216;227;238;249;260;271;282;271;260;249;238;227;216;205;194;183;172;161;150;139;128;117;106;106;117;128;139;150;161;172;183;194;205;216;227;238;249;260;271;282;293;304;293;282;271;260;249;238;227;216;205;194;183;172;161;150;139;128;117;106;106;117;128;139;150;161;172;183;194;205;216;227;238;249;260;271;282;293;304;315;326;315;304;293;282;271;260;249;238;227;216;205;194;183;172;161;150;139;128;117;106;106;117;128;139;150;161;172;183;194;205;216;227;238;249;260;271;282;293;304;315;326;315;304;293;282;271;260;249;238;227;216;205;194;183;172;161;150;139;128;117;106"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.55;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  </g>
+  <text class="sobe d5" x="56" y="344" font-family="Georgia, 'Times New Roman', Times, serif" font-style="italic" font-size="19" fill="#7d7d7d">Quem promete é quem executa.</text>
+</svg>
