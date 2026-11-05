@@ -169,8 +169,8 @@ a6bba34 feat(whatsapp): da para testar num grupo proprio antes de valer
 Se o seu processo ainda vive em planilha, WhatsApp e memória de alguém, é exatamente o tipo de coisa que eu gosto de transformar em sistema.
 
 <p>
-  <a href="https://www.linkedin.com/in/brunoferreiraalves/"><img src="https://img.shields.io/badge/LinkedIn-0a0a0a?style=for-the-badge&logo=linkedin&logoColor=18afbb" alt="LinkedIn"></a>
-  <a href="https://allvz.com.br"><img src="https://img.shields.io/badge/allvz.com.br-0a0a0a?style=for-the-badge&logo=googlechrome&logoColor=18afbb" alt="allvz.com.br"></a>
-  <a href="mailto:contato@allvz.com.br"><img src="https://img.shields.io/badge/contato@allvz.com.br-0a0a0a?style=for-the-badge&logo=maildotru&logoColor=18afbb" alt="E-mail"></a>
-  <a href="https://wa.me/5511987935241"><img src="https://img.shields.io/badge/WhatsApp-0a0a0a?style=for-the-badge&logo=whatsapp&logoColor=18afbb" alt="WhatsApp"></a>
+  <a href="https://www.linkedin.com/in/brunoferreiraalves/"><img src="assets/contato-linkedin.svg" height="44" alt="LinkedIn"></a>
+  <a href="https://allvz.com.br"><img src="assets/contato-site.svg" height="44" alt="allvz.com.br"></a>
+  <a href="mailto:contato@allvz.com.br"><img src="assets/contato-email.svg" height="44" alt="contato@allvz.com.br"></a>
+  <a href="https://wa.me/5511987935241"><img src="assets/contato-whatsapp.svg" height="44" alt="WhatsApp"></a>
 </p>
